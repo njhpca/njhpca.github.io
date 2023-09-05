@@ -15,7 +15,7 @@ git pull
 git clean
 
 4. clone the website from repository to your local machine
-git clone https://bitbucket.org/houyang/njhpca.git
+git clone https://github.com/njhpca/njhpca.github.io njhpca
 open index.html from your browser to navigate 
 
 5. Do a small change on file README.MD,  commit the change and push to remote from the command line. 
@@ -49,16 +49,16 @@ git add .
 git commit -a -m "123: add zip code"
 git push origin annagao-123-zipcode
 
-4. From bitbucket(https://bitbucket.org/houyang/njhpca/branches/), select the branch you just pushed, created the pull request to develop branch (NOT master branch).
+4. From Gibhub(https://github.com/njhpca/njhpca.github.io/branches), select the branch you just pushed, created the pull request to main branch (NOT master branch).
 
-5. After the pull request is reviewed and approved. Merge the PR from bitbucket.
+5. After the pull request is reviewed and approved. Merge the PR from Github.
 
 
-6. Mark the issue as Resolved from https://bitbucket.org/houyang/njhpca/issues?status=new&status=open
+6. Mark the issue as Resolved from https://github.com/njhpca/njhpca.github.io/issues
 
-##Edit a file, create a new file, and clone from Bitbucket in under 2 minutes**
+##Edit a file, create a new file, and clone from Github**
 
-When you're done, you can delete the content in this README and update the file with details for others getting started with your repository.
+ 
 
 *We recommend that you open this README in another tab as you perform the tasks below. You can [watch our video](https://youtu.be/0ocf7u76WSo) for a full demo of all the steps in this tutorial. Open the video in a new tab to avoid leaving Bitbucket.*
 
@@ -101,3 +101,4 @@ Use these steps to clone from SourceTree, our client for using the repository co
 4. Open the directory you just created to see your repository’s files.
 
 Now that you're more familiar with your Bitbucket repository, go ahead and add a new file locally. You can [push your change back to Bitbucket with SourceTree](https://confluence.atlassian.com/x/iqyBMg), or you can [add, commit,](https://confluence.atlassian.com/x/8QhODQ) and [push from the command line](https://confluence.atlassian.com/x/NQ0zDQ).
+
