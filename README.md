@@ -1,7 +1,7 @@
-## Quick start
+## Setup github.
 Here is the website we are building (http://www.njhpca.org or http://www.hpchinese.org)
 
-1. create a bitbucket.org account  and let me know your name associated with the account
+1. create a github.org account  and let me know your name associated with the account
 2. install git.  https://git-scm.com/book/en/v2/Getting-Started-Installing-Git
 3. Play a lit bit git from the command line and focus on the following commands. https://www.youtube.com/watch?v=SWYqp7iY_Tc
 git init
@@ -14,26 +14,46 @@ git fetch
 git pull
 git clean
 
-4. clone the website from repository to your local machine
-git clone https://github.com/njhpca/njhpca.github.io njhpca
-open index.html from your browser to navigate 
+## Quick start
+1. setup ssh key by following
+https://docs.github.com/en/authentication/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account
+
+2. setup your account for Git CLI
+git config --global user.name <your name>
+git config --global user.email <your email>
+
+3. clone the website from repository to your local machine
+mkdir github
+cd github
+git clone git@github.com:njhpca/njhpca.github.io.git njhpca
+cd njhpca
+git status
+
+You can open index.html from your browser to navigate
+
+4. create your own local branch
+git checkout -b <yourname-test-readme>
 
 5. Do a small change on file README.MD,  commit the change and push to remote from the command line. 
-git checkout development
-git branch -b <yourname>-test1
+
 git add README.MD
 git commit -a -m 'my first commit'
-git push origin <yourname>-test1
+git push origin <yourname-test-readme>
+
+You should see the new branch from https://github.com/njhpca/njhpca.github.io/branches
+
+6. Create your first Pull Request on your the new branch you just pushed from https://github.com/njhpca/njhpca.github.io/branches
 
 
-6. If you do not have basic HTML knowledge, you may check here https://www.youtube.com/watch?v=UB1O30fR-EE
+## Resource on HTML
+ If you do not have basic HTML knowledge, you may check here https://www.youtube.com/watch?v=UB1O30fR-EE
 
 
 ## Steps to make a change for prodution site1. 
-1. create a new branch locally from the latest "develop" branch based on the issue number. For example, if the issue you are working on is #123, 
-git checkout develop
+1. create a new branch locally from the latest "main" branch based on the issue number. For example, if the issue you are working on is #123,
+git checkout main
 git fetch
-git pull origin develop
+git pull origin main
 git branch -b <yourusername>-<issuenumber>-<simple description>
 
 for example:
