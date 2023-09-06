@@ -109,7 +109,7 @@
 <head>
     <style>
         body {
-            background-image: url('img/hp-dp-sunny-view1.jpeg'); 
+            background-image: url('img/hp-farmers-market.jpeg'); 
             background-size: cover; 
             background-repeat: no-repeat; 
             background-attachment: fixed; 
@@ -135,12 +135,15 @@
         <style>
             p {
                 color: white;
+                font-size: larger;
+                font-weight: 400;
     
             }
+            
         </style>
+    
         <h1>2023 MID-AUTUMN FESTIVAL Highland Park</h1>
         <h2>2023年中秋庆祝活动</h2>
-        <h3>Mid-Autumn Festival Celebration</h3>
         <p>Date: 09/30/2023, Saturday<br> Time: 3:00 PM - 6:00 PM<br> Location: Farmers Market Lot, 212 Raritan Ave, Highland Park, NJ 08904 (Between S 2nd Ave and S 3rd Ave)</p>
         <p>Celebrate a traditional Asian holiday, showcase Asian culture, and promote community engagement and unity.</p>
         <p>庆祝传统节日，展示亚裔文化，促进社区参与和团结。</p>
@@ -163,18 +166,95 @@
                     }
                 </style>
                 <a href="img/midautumnpic.png">Event Brochure</a>
-                <br>
+                &nbsp &nbsp
                 <a href="img/midautumnpic.png">Program List</a>
-                <br>
+                &nbsp &nbsp
                 <a href="img/midautumnpic.png">Vendor List</a>
+                <br>
+                <a href="https://www.hpboro.com/">Thanks Borough of Highland Park for supporting the event.</a>
+                <a href="https://www.facebook.com/people/Mayor-Elsie-Foster/100065034969458/">Thanks Mayor Elsie Foster for for suggesting this event.</a>
+                
             </div>
-        
         </body>
     </head>
     
-
-    
     <!-- midautumn-end -->
+
+    <!-- ad info  -->
+    
+    <!DOCTYPE html>
+    <style>
+        .ad-bar {
+            padding: 10px;
+            text-align: center;
+            background-color: gold; /* Default background color */
+            display: flex; /* Use flexbox to center the content vertically and horizontally */
+            justify-content: center;
+            align-items: center;
+        }
+
+        .ad-bar img {
+            max-width: 100%;
+            max-height: 100%;
+        }
+    </style>
+</head>
+<body>
+    <!-- First Ad Bar Section -->
+    <div class="ad-bar" style="background-color: gold;">
+        <!-- Ad Image 1 -->
+        <a href="" target="_blank">
+            <img src="" alt="李中原">
+        </a>
+    </div>
+
+    <!-- Second Ad Bar Section -->
+    <div class="ad-bar" style="background-color: gold;">
+        <!-- Ad Image 2 -->
+        <a href="https://youtu.be/65F0kikq-iY?si=vFsLI3F3_26a616q" target="_blank">
+            <img src="ad-image-2.jpg" alt="高登保险">
+        </a>
+    </div>
+
+    <!-- Third Ad Bar Section -->
+    <div class="ad-bar" style="background-color: silver;"> 
+        <!-- Ad Image 3 -->
+        <a href="" target="_blank">
+            <img src="" alt="柯奇律师事务所 Vivian">
+        </a>
+    </div>
+    <!-- Fourth Ad Bar Section -->
+    <div class="ad-bar" style="background-color: silver;"> 
+        <!-- Ad Image 4 -->
+        <a href="https://www.foursisterswinery.com/" target="_blank">
+            <img src="img/four-sisters.jpg" alt="Four Sisters Winery">
+        </a>
+    </div>
+    <script>
+    
+        let currentAd = 0;
+        const adImages = document.querySelectorAll('.ad-bar img');
+
+        function hideAllAds() {
+            for (let i = 1; i < adImages.length; i++) {
+                adImages[i].style.display = 'none';
+            }
+        }
+
+        hideAllAds();
+
+        function nextAd() {
+            adImages[currentAd].style.display = 'none';
+            currentAd = (currentAd + 1) % adImages.length;
+            adImages[currentAd].style.display = 'block';
+        }
+
+        setInterval(nextAd, 4000);
+    </script>
+</body>
+</html>
+
+    <!-- ad info end  -->
 
     <!-- footer start -->
     <footer class="footer">
