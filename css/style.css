@@ -1311,6 +1311,9 @@ h3 {
   display: flex;
   justify-content: flex-end;
 }
+.farmersmarket_bg_1 {
+  background-image: url(../img/banner/hp-farmers-market.jpeg);
+}
 
 /* line 1, ../../Arafath/CL/CL October/216. Consulting/HTML/scss/_slider.scss */
 .slider_bg_1 {
