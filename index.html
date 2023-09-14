@@ -317,7 +317,7 @@
     <style>
         /* Style for the ad bar */
         .ad-bar {
-            background-color: lightskyblue;
+
             color: #fff;
             text-align: center;
             padding: 10px 0;
@@ -339,7 +339,9 @@
         /* Style for the links */
         .ad-logo a {
             text-decoration: none;
-            color: #fff;
+            color: #000;
+            font-size: larger;
+            font-weight: 800;
         }
     </style>
 </head>
@@ -347,32 +349,34 @@
     <div class="ad-bar">
         <!-- Logo 1 -->
         <div class="ad-logo">
-            <a href="https://www.qualiaglass.com/">
-                <img src="img/qualia-logo.png" alt="Logo 1">
+            <a href="https://www.qualiaglass.com/" target="njhpca-ad">
+                <img src="img/qualia-logo.png" alt="Qqalia Glass">
             </a>
         </div>
 
         <!-- Logo 2 -->
+
         <div class="ad-logo">
-            <a href="https://youtu.be/65F0kikq-iY?si=vFsLI3F3_26a616q" >高登保险</a>
+            <a href="https://youtu.be/65F0kikq-iY?si=vFsLI3F3_26a616q"  target="njhpca-ad">高登保险</a>
         </div>
 
         <!-- Logo 3 -->
         <div class="ad-logo">
-            <a href="https://www.veeva.com/">
-                <img src="img/veeva-logo.png" alt="Logo 3">
+            <a href="https://www.cricketwireless.com/" target="njhpca-ad">
+                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAKMAAAB6CAMAAADkgxNVAAAAolBMVEX///8AAAB/f3/7+/tsbGyurq7t7e2NjY1PT0/q6ur09PQfHx/w8PDExMTn5+c4ODhhpy29vb2fn58rKyvT09PZ2dmUlJQ+Pj5zc3MUFBS3t7d5eXnMzMzh4eFHR0enp6dgYGB2s1Tx9e5qqD5fozFXV1fd6NJZpSS40aPP4cFSngpVnReFgYjd7dK91a1cclExTB4sQB02WhxAZCZ8r1UxXQxJ/UrmAAAFEklEQVR4nO2Y2XbbNhBAAZHgvoiguK9OzTixW6fr//9aBwsp0qHrRFZ0mnPmvhgyYOgSmAGGJgRBEARBEARBEARBEARBEARBEARBrkYWAqf9vlb0ZW9M0IlB4dW91hwoYBq7fY7oO7wxgS0G0euLrUDH69D8BI6nBHglZ27q6J14WdpJN390AY8QwzWIFwCe7nBbuyzz0Pra8YMGmkGbl6adRGvHSkwZEcPyyIUMBVU06iBh1Pcrm9RjdSKHCtql3GvP9tWw1PZeOH78RfLwiRC+TBacHWnq+z71kpLvR81buPOkAq4cxXeLyU+rnGn987Aq3Dh+Pj4cj8eHx2fiOqtBydlREiVl/UrYvKHY0zX57JhWW8fTZhgNV44fj5KnT8RwNoParaOX2PyiZZy2300T7Sg5O1rpi3HR4vj5SSo+wkabqs+Z1Jr70dbxIkFCavXn/cDsWO3QvuNB/cIcWKO+39SOv/52fJSKzxAOsqeMPM/istnMjjzPc/uyWCTGKKcYRNtTbTY7TiwJZkdP+csIi9TDZMrxy7LRhIxaXsD0Qr7/7Inmx5UUQHzQjupQUY56uQc1LIthXDpIx9/vl40mnYyHMOoEWa8e+P2OanfmssQSB6OlHbu1Y74JKDHMDYTjH/cPiyJJVBBqRM5BCr7fUaVwtPPL2Fo5GvKH8yKgnHkVj8/yc02/ovyhjsU3OM6Kfx5eczSv4BjKGdodx8066r1+4fhFbfTxL0pt8VnudeWs6K+x19uccWKg3HPc5EzXx3GRcvI3+N0f7/9UgQe5JHMmI4Zg/ga+Cu7L8NQRXssP6pHzPUd99qibzNGLfyfT5R+1q+IGkamsC6HsBLSGTiQn2vv2b2Q+w+uQ6ZtkN2fmM7xJknyONOn49NxVi6Q+w2HRPK5Thhg6Mv3xrTef19le13I/9xz1wX0mk45Py+0i/tJQd2E6jWrW2CXL/fhV1H8H7vYiFsG/57iYaBj03T3I22UpNxgJtk8iVy7S9VJ1uSNx1/PKO3Xn7IFWu3qYSiiSu0d1LuqYE5LReB4Ua6nIebcj8fJlVnkfk0G0fVe2S9EeZZZGzTxuUml692me4ixp8HmQuaSJkTTv22tJfTDNJp+D2rMEqh240AzmDtbAOK67PnxePaf8E0tqhYfSbIaAbAnci98TkOvT5cmL33jDcGFh+qNgc326EKXV/yyKgkylotAypFsUp/KnN6+mNvZuurqD2RJD/O+tNllWMvgRNnCr5VMPHdqxHftJvhgno1PCY1gHZ2Q3dORQ9FjiUhlpm0Dblgd5QXuzgsvNFY5wfJo9LUR5EJvU90hFy5S+DN0fSEd9UUS2XkGNBGqWnBYnwxYFgttXmXDsaAxnXS7LfkaGJuhoQbpDfTtH4lMD3kb5CfJFOXICy8gYqxs6WHFq5LSpGeOVYwzU5ydZyTQ3XEUiFoj1fCoSWCPlWIsbXPx/JvW5cLTVW1TqWIRDOTN6JIM4eO/N9l20tPBDRicolZUjE+sYRV0URYEr15G7nfgEg422kIHY2XS6oaPVUxFzEGOLIyRS6RpQcUUiHgOosQzLhAwq/QTqoKSFsOjodMvjp4Ql8XrxQlLLvAZHqFXTXrx2yzMcSrUiFcd7TauJ+haEsJPO7za34cQhtEIOW5nxkLRcVj+sGW1oBGyA8zGzx1KmcdJMNpRlVj6Zt0zrV9nfSuO/OhEEQRAEQRAEQRAEQRAEQRAEQZCfiH8BbsNOBztiJQ0AAAAASUVORK5CYII="
+                     alt="Cricket">
             </a>
         </div>
 
         <!-- Logo 4 -->
-        <div class="ad-logo">
-            <a href="">柯奇律师事务所 Vivian</a>
+        <div class="ad-logo" target="njhpca-ad">
+            <a href="" target="njhpca-ad">柯奇律师事务所</a>
         </div>
 
         <!-- Logo 5 -->
         <div class="ad-logo">
             <a href="https://www.foursisterswinery.com/">
-                <img src="img/four-sisters.jpg" alt="Logo 5">
+                <img src="img/four-sisters.jpg" alt="Four Sisters Winery">
             </a>
         </div>
     </div>
