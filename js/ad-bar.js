@@ -21,7 +21,7 @@ function createAdBar() {
             /* Style for each logo in the ad bar */
             .ad-logo {
                 display: inline-block;
-                margin: 0 20px;
+                margin: 0 10px;
             }
     
             /* Style for the clickable logo images */
@@ -35,7 +35,7 @@ function createAdBar() {
             .ad-logo a {
                 text-decoration: none;
                 color: #000;
-                font-size: larger;
+                font-size: large;
                 font-weight: 800;
             }
         </style>
@@ -68,10 +68,8 @@ function createAdBar() {
                 </div>
     
                 <div class="row">
-                    <div class="col-xl-2 col-md-2 col-lg-2">
-                    </div>
-                    <div class="col-xl-2 col-md-2 col-lg-2">
-                    </div>
+
+                    <br>
                 </div>
                 <div class="row">
     
@@ -80,23 +78,24 @@ function createAdBar() {
                         <!-- Logo 4 -->
                         <div class="ad-logo  align-items-center">
                             <div class="ad-logo align-items-center" target="njhpca-ad">
-                                <a href="https://www.uhc.com/" target="njhpca-ad">UnitedHealthcare</a>
+                                <a href="https://www.uhcasian.com/" target="njhpca-ad">United Healthcare</a>
                             </div>
                         </div>
     
                     </div>
-    
+
+
                     <div class="col-xl-2 col-md-4 col-lg-2">
-    
+
                         <!-- Logo 5 -->
                         <div class="ad-logo  align-items-center">
                             <div class="ad-logo  align-items-center" target="njhpca-ad">
-                                <a href="img/colucci-attorney.jpeg" target="njhpca-ad">柯奇律师事务所</a>
+                                <a href="img/colucci-attorney.jpeg" target="njhpca-ad"> &nbsp;&nbsp;柯奇律师事务所 Colucci Law Firm</a>
                             </div>
                         </div>
-    
+
                     </div>
-    
+
                     <div class="col-xl-2 col-md-4 col-lg-2">
     
                         <!-- Logo 6 -->
@@ -107,6 +106,7 @@ function createAdBar() {
                             </a>
                         </div>
                     </div>
+
                     <div class="col-xl-2 col-md-4 col-lg-2">
     
                         <!-- Logo 7 -->
