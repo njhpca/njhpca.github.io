@@ -470,6 +470,41 @@ h3 {
   outline: none;
 }
 
+/* Coming Soon Tooltip */
+.coming-soon-container {
+  position: relative;
+  display: inline-block;
+}
+
+.coming-soon-popup {
+  display: none;
+  position: absolute;
+  bottom: 120%;
+  left: 50%;
+  transform: translateX(-50%);
+  background: #222;
+  color: #fff;
+  padding: 6px 14px;
+  border-radius: 5px;
+  font-size: 14px;
+  font-family: inherit;
+  white-space: nowrap;
+  z-index: 100;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+  pointer-events: none;
+}
+
+.coming-soon-container:hover .coming-soon-popup,
+.coming-soon-container:focus-within .coming-soon-popup {
+  display: block;
+}
+
+.coming-soon-container:hover .boxed-btn3,
+.coming-soon-container:focus-within .boxed-btn3 {
+  pointer-events: none;
+  opacity: 0.7;
+}
+
 /* line 65, ../../Arafath/CL/CL October/216. Consulting/HTML/scss/_btn.scss */
 .boxed-btn3.large-width {
   width: 220px;
