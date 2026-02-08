@@ -1,5 +1,5 @@
 function createAdBar() {
-    
+
     var adBar = document.createElement('div');
     adBar.className = 'ad-bar';
     adBar.innerHTML = `
@@ -43,18 +43,15 @@ function createAdBar() {
         <div class="service_area">
             <div class="container">
                 <div class="row">
-    
-                    <div class="col-xl-2 col-md-2 col-lg-2">
-                    </div>
-                    <div class="col-xl-4 col-md-4 col-lg-4">
-                        <!-- Logo 1 -->
+
+
+                    <div class="col-xl-1 col-md-1 col-lg-1">
+     
                         <div class="ad-logo align-items-center">
-                            <a href="https://www.qualiaglass.com/" target="njhpca-ad">
-                                <img src="img/qualia-logo.png" alt="Qualia Glass">
-                            </a>
+               
                         </div>
                     </div>
-                    <div class="col-xl-4 col-md-4 col-lg-4">
+                    <div class="col-xl-2 col-md-2 col-lg-2">
     
                         <!-- Logo 2 -->
     
@@ -63,17 +60,8 @@ function createAdBar() {
                                 高登保险</a>
                         </div>
                     </div>
-                    <div class="col-xl-2 col-md-2 col-lg-2">
-                    </div>
-                </div>
-    
-                <div class="row">
 
-                    <br>
-                </div>
-                <div class="row">
-    
-                    <div class="col-xl-2 col-md-4 col-lg-2">
+                    <div class="col-xl-2 col-md-2 col-lg-2">
     
                         <!-- Logo 4 -->
                         <div class="ad-logo  align-items-center">
@@ -83,9 +71,22 @@ function createAdBar() {
                         </div>
     
                     </div>
+   
+                        
+                    <div class="col-xl-2 col-md-2 col-lg-2">
+    
+                        <!-- Logo 4 -->
+                        <div class="ad-logo  align-items-center">
+                            <div class="ad-logo align-items-center" target="njhpca-ad">
+                                <a href="https://www.qualiaglass.com/" target="njhpca-ad">
+                                            <img src="img/qualia-logo.png" alt="Qualia Glass"/></a>
+                            </div>
+                        </div>
+    
+                    </div>           
+            
 
-
-                    <div class="col-xl-2 col-md-4 col-lg-2">
+                    <div class="col-xl-2 col-md-2 col-lg-2">
 
                         <!-- Logo 5 -->
                         <div class="ad-logo  align-items-center">
@@ -95,8 +96,45 @@ function createAdBar() {
                         </div>
 
                     </div>
+                    <div class="col-xl-2 col-md-2 col-lg-2">
+    
+                        <!-- Logo 7 -->
+                        <div class="ad-logo  align-items-center">
+                        <a href="https://www.youtube.com/channel/UCM98SGQWI07ahZBhsrKtEZw" target="njhpca-ad">
+                                Jasmine Tsui徐佳美 保险 房地产</a>    
+                      
+                    </div>
+                    
 
-                    <div class="col-xl-2 col-md-4 col-lg-2">
+                    <div class="col-xl-1 col-md-1 col-lg-1">
+     
+                        <div class="ad-logo align-items-center">
+               
+                        </div>
+                    </div>
+                </div>
+     
+                <div class="row">
+
+                    <br>
+                </div>
+
+                <div class="row">
+    
+
+
+
+
+                    <div class="col-xl-2 col-md-2 col-lg-2">
+     
+                        <div class="ad-logo align-items-center">
+               
+                        </div>
+                    </div>
+
+           
+
+                    <div class="col-xl-3 col-md-4 col-lg-3">
     
                         <!-- Logo 6 -->
                         <div class="ad-logo  align-items-center">
@@ -107,19 +145,10 @@ function createAdBar() {
                         </div>
                     </div>
 
-                    <div class="col-xl-2 col-md-4 col-lg-2">
-    
-                        <!-- Logo 7 -->
-                        <div class="ad-logo  align-items-center">
-                            <a href="https://www.foursisterswinery.com/" target="njhpca-ad">
-                                <img src="img/four-sisters.jpg" alt="Four Sisters Winery" class="rounded-circle" width=120
-                                     height=70>
-                            </a>
-                        </div>
-                    </div>
+
     
     
-                    <div class="col-xl-2 col-md-4 col-lg-2">
+                    <div class="col-xl-3 col-md-4 col-lg-3">
     
                         <div class="ad-logo  align-items-center">
                             <a href="img/papa-johns-ad.png" target="njhpca-ad">
@@ -127,11 +156,22 @@ function createAdBar() {
                             </a>
                         </div>
                     </div>
-                    <div class="col-xl-2 col-md-4 col-lg-2">
+
+                    <div class="col-xl-3 col-md-4 col-lg-3">
     
                         <div class="ad-logo  align-items-center">
                             <a href="img/yang-atterney.jpeg" target="njhpca-ad">
                                 新泽西杨氏联合律师楼</a>
+                        </div>
+                    </div>
+                    
+ 
+                    
+
+                    <div class="col-xl-2 col-md-2 col-lg-2">
+     
+                        <div class="ad-logo align-items-center">
+               
                         </div>
                     </div>
                 </div>
@@ -145,17 +185,16 @@ function createAdBar() {
     
         <!-- ad info end  -->
     `;
-  
+
     // Find the footer element (you might need to adjust this selector)
     var footer = document.querySelector('footer');
-  
+
     // Insert the ad bar before the footer
     if (footer) {
-      footer.parentNode.insertBefore(adBar, footer);
+        footer.parentNode.insertBefore(adBar, footer);
     }
-  }
-  
-  // Call the createAdBar function to generate the ad bar
-  createAdBar();
-  
-  
+}
+
+// Call the createAdBar function to generate the ad bar
+createAdBar();
+
