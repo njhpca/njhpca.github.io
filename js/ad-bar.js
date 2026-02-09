@@ -56,8 +56,8 @@ function createAdBar() {
                         <!-- Logo 2 -->
     
                         <div class="ad-logo align-items-center">
-                            <a href="https://youtu.be/65F0kikq-iY?si=vFsLI3F3_26a616q" target="njhpca-ad">
-                                高登保险</a>
+
+                            <a href="img/gaodeng.jpg" target="njhpca-ad"> &nbsp;&nbsp;高登保险</a>
                         </div>
                     </div>
 
